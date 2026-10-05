@@ -31,7 +31,7 @@ Java 25 is required.
 ```
 
 The production JAR is generated at
-`build/libs/nametag-depth-fix-1.0.0.jar`.
+`build/libs/nametag-depth-fix-1.0-SNAPSHOT.jar`.
 
 ## Manual two-client test
 
