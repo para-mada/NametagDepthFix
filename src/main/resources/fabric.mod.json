@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nametag_depth_fix",
+  "version": "${version}",
+  "name": "Nametag Depth Fix",
+  "description": "Corrige MC-162693 aplazando los nametags con depth test para que su fondo translúcido no oculte geometría translúcida situada detrás.",
+  "authors": [
+    "Paramada"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "mixins": [
+    "nametag_depth_fix.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": ">=${fabric_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
